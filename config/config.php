@@ -7,10 +7,10 @@
 * @version 1.1
 */
 
-Define('DB_HOST', '10.36.96.103');
+Define('DB_HOST', '192.168.222.34');
 Define('DB_NAME', 'db_terminal');
-Define('DB_USER', 'root');
-Define('DB_PASSWORD', 'rootpsw');
+Define('DB_USER', 'majordomo');
+Define('DB_PASSWORD', 'majordomo');
 
 Define('DIR_TEMPLATES', "./templates/");
 Define('DIR_MODULES', "./modules/");
