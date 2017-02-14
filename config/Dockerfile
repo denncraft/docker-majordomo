@@ -24,7 +24,7 @@ RUN rm -Rf /root/majordomo-master
 
 ADD config.php /var/www/config.php
 ADD envvars /etc/apache2/envvars
-ADD apache2.conf /etc/apache2/apache2.comf
+ADD apache2.conf /etc/apache2/apache2.conf
 ADD 000-default.conf /etc/apache2/sites-available/000-default.conf
 ADD php.apache.ini /etc/php5/apache2/php.ini
 ADD php.cli.ini /etc/php5/cli/php.ini
